@@ -1,2 +1,2 @@
 # JSLearning
-this repo for learning perpose for JavaScript... :)
+this repo for learning purpose for JavaScript... :)
