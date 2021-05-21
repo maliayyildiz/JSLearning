@@ -1,0 +1,23 @@
+
+<html>
+    <head>Calculator</head>
+    <body>
+       <input id = "v1">
+       <input id =  "v2">
+       <br>
+       <button id = "addBtn">Add</button>
+       <p id = "rsl"></p>
+    </body>
+    <script>
+      
+      document.getElementById("addBtn").onclick= addNumber();
+
+      function addNumber(){
+          let x = document.getElementById("v1").innerText;
+          let y = document.getElementById("v2").innerText;
+
+          let snc = parseInt(x)+parseInt(y);
+          document.getElementById("rsl").innerHTML = snc;
+      }
+    </script>
+</html>
